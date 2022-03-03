@@ -1,0 +1,6 @@
+[28-Sep-2019 10:09:11 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(397): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(374): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#2 /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(289): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#3 /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(188): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\H in /home/school/School-Eportal/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
